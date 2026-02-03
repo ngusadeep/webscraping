@@ -1,0 +1,16 @@
+[project]
+name = "webscraping"
+version = "0.1.0"
+description = "Scrape website text into a knowledge base (Beautiful Soup, no images/video)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "lxml>=6.0.2",
+    "requests>=2.32.5",
+    "nltk>=3.8",
+    "ruff>=0.14.14",
+]
+
+[project.optional-dependencies]
+dev = []
