@@ -10,20 +10,16 @@
 
 Scrape website **text only** (no images or video) into a knowledge base. Crawls same domain and subdomains, outputs JSON and optional NLP-enhanced data.
 
----
-
 ## Overview
 
 This tool uses **Beautiful Soup** to parse HTML and extract all text content from a site. It follows links on the same domain (and subdomains, e.g. `help.example.com`), saves structured data (titles, headings, paragraphs, metadata) to JSON, and can optionally run **NLTK**-based processing for keywords, summaries, and search. **lxml** is used as the parser; **requests** handles HTTP. No images or video are downloaded.
 
----
 
 ## Prerequisites
 
 - **Python** 3.12 or newer  
 - **uv** — install: `pip install uv` or see [docs.uv.dev](https://docs.uv.dev)
 
----
 
 ## How to run
 
@@ -69,13 +65,11 @@ uv run python main.py <URL>
 
 Output is written to the `knowledge_base/` directory (or `--output-dir` if set).
 
----
 
 ## License
 
 This project is provided as-is. Use and modify it as you like. If you distribute it, keep attribution to the original authors.
 
----
 
 ## Contributing
 
