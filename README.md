@@ -38,8 +38,8 @@ uv run python main.py <URL>
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) — You may use, copy, modify, and distribute this project. Keep the license notice and copyright in copies. No warranty.
 
 ## Contributing
 
-Open an issue or PR. Run `uv sync` and `uv run python main.py <url>` before submitting.
+Contributions welcome: open an issue to discuss, or send a PR. Run `uv sync` and `uv run python main.py <url>` before submitting.
