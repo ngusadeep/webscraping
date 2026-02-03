@@ -10,7 +10,6 @@
 
 Scrape site **text only** into a JSON knowledge base. Same domain + subdomains; optional NLP (keywords, summaries). Beautiful Soup + NLTK + lxml.
 
----
 
 ## Prerequisites
 
